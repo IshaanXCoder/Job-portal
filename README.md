@@ -22,6 +22,5 @@ This is a full-stack hiring platform built with modern web technologies. It has 
    ```bash
    git clone https://github.com/IshaanXCoder/Job-portal
 
-2. npm run dev:
-   ```bash
-   git clone https://github.com/IshaanXCoder/Job-portal
+2. ```bash
+   npm run dev
