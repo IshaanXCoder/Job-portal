@@ -16,15 +16,12 @@ This is a full-stack hiring platform built with modern web technologies. It has 
 ![Clerk](https://img.shields.io/badge/Clerk-F694FF?style=for-the-badge&logo=clerk&logoColor=white)
 ![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-0D0D0D?style=for-the-badge&logo=shadcnui&logoColor=white)
 
-## 📂 Project Structure
-
-- **Frontend**: React with TailwindCSS for styling
-- **Backend**: Supabase for databases and APIs
-- **Authentication**: Clerk for user management
-- **UI Components**: Shadcn UI for a sleek and modern interface
-
 ## 🛠️ Installation and Setup
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/hiring-platform.git
+   git clone https://github.com/IshaanXCoder/Job-portal
+
+2. npm run dev:
+   ```bash
+   git clone https://github.com/IshaanXCoder/Job-portal
