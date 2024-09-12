@@ -8,6 +8,13 @@ import Job from './pages/job';
 import MyJobs from './pages/my-jobs';
 import PostJob from './pages/post-job';
 import SaveJob from './pages/saved-job';
+import { ThemeProvider, createTheme } from '@mui/material/styles'; // Only one ThemeProvider import
+
+const theme = createTheme({
+  palette: {
+    mode: 'dark', // You can configure your theme here
+  },
+});
 
 const router = createBrowserRouter([
   {
@@ -26,9 +33,9 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <RouterProvider router={router} />
-    </>
+    </ThemeProvider>
   );
 }
 

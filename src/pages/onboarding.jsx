@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const onboarding = () => {
+const Onboarding = () => {
   return (
-    <div>
-      onboarding
+    <div className="grid-background">
+      <h1>Onboarding Page</h1>
+      <p>This is a test content to ensure everything is working fine.</p>
     </div>
-  )
-}
+  );
+};
 
-export default onboarding
+export default Onboarding;
