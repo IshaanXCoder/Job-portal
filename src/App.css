@@ -12,7 +12,7 @@
   linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
   background-size: 50px 50px;
   pointer-events: none;
-  z-index: 0; /* Change this to see if it affects visibility */
+  z-index: -100; /* Change this to see if it affects visibility */
 }
 
 .grid-background::before {
@@ -23,4 +23,9 @@
   width: 100%;
   height: 100%;
   background: radial-gradient(circle, transparent, rgba(0, 0, 0, 0.9));
+}
+.parent-container {
+  position: relative;
+
+  z-index: 1; /* Ensure this is higher than .grid-background */
 }

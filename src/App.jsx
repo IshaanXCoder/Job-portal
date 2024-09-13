@@ -9,7 +9,9 @@ import JobListing from './pages/job-listing';
 import Job from './pages/job';
 import MyJobs from './pages/my-jobs';
 import PostJob from './pages/post-job';
+
 import SaveJob from './pages/saved-job';
+import Header from './components/header';
 
 // Create a theme using MUI
 const theme = createTheme({
